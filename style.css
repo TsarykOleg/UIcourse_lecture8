@@ -1,0 +1,49 @@
+.block1 {
+  background-color: yellow;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .block1 {
+    background-color: violet;
+  }
+}
+.block2 {
+  background-color: green;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .block2 {
+    background-color: violet;
+  }
+}
+.block3 {
+  background-color: orange;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .block3 {
+    background-color: violet;
+  }
+}
+.block4 {
+  background-color: blue;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .block4 {
+    background-color: violet;
+  }
+}
+.block5 {
+  background-color: red;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .block5 {
+    background-color: violet;
+  }
+}
+@media print {
+  .block1,
+  .block2,
+  .block3,
+  .block4,
+  .block5 {
+    border: 1px solid;
+  }
+}
